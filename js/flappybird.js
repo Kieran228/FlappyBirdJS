@@ -1,6 +1,6 @@
 //*board
 let board;
-let boardWidth = 360;
+let boardWidth = 600;
 let boardHeight = 640;
 let context;
 let birdImg;
@@ -169,4 +169,3 @@ function detectCollision(a, b) {
            a.y < b.y + b.height &&
            a.y + a.height > b.y;
 }
-
